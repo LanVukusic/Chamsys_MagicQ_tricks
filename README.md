@@ -41,7 +41,7 @@ Just by selecting the group then recording to a fader and then simply choosing w
 
 *** 
 
-###Updating palette offsets
+### Updating palette offsets
 Updating the palette offset, saving serious amounts of time when updating positions!
 
 ***
