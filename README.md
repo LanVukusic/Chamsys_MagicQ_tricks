@@ -83,6 +83,49 @@ For example: It enables you to copy positions from one desk to another.
 ### Shift + Highlight
 allows you to set custom selections like with Parts and Segments.
 
+***
+
+### Coping groups to a playback makes an intensity chase
+Copying a Group to a Playback makes a Cue with Intensity at 100%  
+Selecting multiple groups using the cursor (SHIFT + cursor keys) and then copying to a Playback creates a multi step Cue Stack of intensities – one Cue step for each group. This is an easy way to create, for example an intensity chase of your different moving light groups or your different par can colour groups.
+
+***
+
+### Copying color paletes to a playback
+Select group, select all 10 color pallets, copy to playback.  This makes a CueStack with 10 cues with the 10 colors. Works with all type of palettes.
+
+***
+
+### Expand palette
+When you want to add a parameter to a palette and make sure the new parameter is used in all the cues the palette lives in:  go to view palette / expand palette.
+
+***
+
+### Intelligent fan times palletes
+Type this syntax in the command line and hit a pallete to fade with intelligent fan.  
+If you then record that pallete to a playback it will fade acordingly.   
+Applying Palettes with times and fanned times can be applied to all Palette types including Beam and Colour.  
+
+
+* \<time> *  
+Fan times across selected heads
+
+* \<time> * /  
+Reverse fan
+
+* \<time> * +    
+Into centre fan
+
+* \<time> * -  
+Centre out fan
+
+* \<time> *.  
+Random
+
+* \*  
+Use last fan time
+
+
 
 
 
