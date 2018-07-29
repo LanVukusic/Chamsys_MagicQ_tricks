@@ -64,8 +64,8 @@ You can cset up the GO button to tap to time (Global or selected) for example.
 
 *** 
 
-### <S\> + Record
-!! TO DO 
+### <S\> + Record = record merge  
+Record merge in the active cue. Or for people without a console or wing, RECORD UPDATE does the same in the selected playback.
 
 ***
 
