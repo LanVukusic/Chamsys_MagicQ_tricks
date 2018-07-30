@@ -104,7 +104,7 @@ When you want to add a parameter to a palette and make sure the new parameter is
 ### Intelligent fan times palletes
 Type this syntax in the command line and hit a pallete to fade with intelligent fan.  
 If you then record that pallete to a playback it will fade acordingly.  
-Example: Select fixtures, At full, 3*+ (select a color), record to a playback
+Example: Select fixtures, At full, 3*+ (select a color), record to a playback.  
 Applying Palettes with times and fanned times can be applied to all Palette types including Beam and Colour.  
 
 
