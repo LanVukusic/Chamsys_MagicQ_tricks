@@ -125,7 +125,10 @@ Random
 * \*  
 Use last fan time
 
+***
 
+### Identical CueStack generation / cloning of CueStacks
+Select group you want to copy the programming TO. press shift + copy, at the top press COPY TO SEL, press the cue stack you want to copy FROM, then press an empty cue stack s button.
 
 
 
