@@ -131,6 +131,10 @@ Use last fan time
 ### Identical CueStack generation / cloning of CueStacks
 Select group you want to copy the programming TO. press shift + copy, at the top press COPY TO SEL, press the cue stack you want to copy FROM, then press an empty cue stack s button.
 
+***
 
+### Customising Locate, Default, Highlight and Lowlight values  
+Manual page 7.26  
+Simply record a Cue into the Cue Store and then press the SET LOC CUE, SET DEF CUE, SET HIGHL CUE, SET LOWL CUE soft buttons. The Cue is indicated as Default, Locate, Highlight or Lowlight by a D, L,H or Lo after the Q number.
 
 
