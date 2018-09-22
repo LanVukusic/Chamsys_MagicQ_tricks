@@ -4,6 +4,8 @@ I wished to create a bigger index of shortcuts. [There is an official link](http
 for the magicQ shortcuts provided by chamsys.  
 This list expands on it.
 
+Special thanks to Manuel Rodrigues, for all the help in kickstarting this project.
+
 
 
 
@@ -24,7 +26,7 @@ That gives you the option to either:
 ***
 
 ### Set the PAUSE and GO button to trigger playbacks
-> Setup -> Playback -> Play/Pause use exec grid 1.  
+> Setup > Playback > Play/Pause use exec grid 1.  
 
 You can set up exec grid 1 as a 10x2 grid, and record your playbacks on it. Than you will be able to trigger them from the playbacks
 
@@ -59,7 +61,7 @@ On Mq500 there is a dedicated button for it
 
 ### Crossfader remaping
 You can remap all the crossfader buttons to your own taste in:
-> Setup -> Playback
+> Setup > Playback
 You can cset up the GO button to tap to time (Global or selected) for example.  
 
 *** 
@@ -136,5 +138,33 @@ Select group you want to copy the programming TO. press shift + copy, at the top
 ### Customising Locate, Default, Highlight and Lowlight values  
 Manual page 7.26  
 Simply record a Cue into the Cue Store and then press the SET LOC CUE, SET DEF CUE, SET HIGHL CUE, SET LOWL CUE soft buttons. The Cue is indicated as Default, Locate, Highlight or Lowlight by a D, L,H or Lo after the Q number.
+
+***
+
+### Master Faders as Cue Stacks  
+* from version 1.762 onwards  
+* [Video tutorial here](https://www.youtube.com/watch?v=flRqRWCrd7A)
+This allows us to make the masters behave as a normal playback, which increases the maximum number of available faders.   
+Setup > Playback > Grand master / Sub master / Crossfade master function  
+Here you hit Set and click the desired setting. Here you choose Cue stack 1/ 2/ 3 accordingly.    
+Your masters now behave as cue stacks!!     
+however we have no S button above them, so the only option to record a cuse stack to the fader, is to bring up the Stack Store button, and record your cue stacks  to the fields in the stack store.
+
+***
+
+### Copying position pallets from one desk (can be any brand!)
+Connect the output of the first console to your input.  
+Go to dmx IO and set your artnet output equal to your input. Disable your artnet output. Not the whole universe but only the artnet output.  
+Ask the house operator to start a circle movement on a series of movers. Go to view output / view dmx select input (top right).   Notabene: you can only see the incoming dmx here. Go to the universe of the movers who are doing a circle. See changing numbers on the pan tilt channels. 
+If there are. Ask the house operator to stop the move and show you his or her positions. Whenever you like one and want to copy one: select same group.  
+Press ctrl rec and select an empty position palette location. This works with all parameters. Color, Beam looks, etc.
+
+***
+
+### Media server input to chamsys pixle mapper (Resolume, grandVj, ...)  
+Patch the led pixels in your desk and in the patch win set the merge field of these pixels to “merge”. This gives you a HTP merge.   Research the the options there. You might want to use a LTP merge. There is also a multiply in option which gives you the possibility to dim your input from Resolume.   
+In Resolume set your led to send at exact the same adres as in your desk but one subnet higher. In your desk set the IN field of the dmx-IO settings to this same uni and subnet combo.  
+Last addition. Incomming DMX can only be viewed in the following window: Output, view dmx and then select INPUT. Top right button.
+
 
 
